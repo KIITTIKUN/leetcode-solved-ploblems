@@ -1,3 +1,7 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
 const isPalindrome = (number) => {
   let copyNumber = number;
   let reverseNumber = 0;
@@ -7,3 +11,4 @@ const isPalindrome = (number) => {
   }
   return (number >= 0 && number < 10) || reverseNumber == number;
 };
+
