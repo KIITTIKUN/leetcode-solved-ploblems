@@ -4,5 +4,5 @@
  * @return {number}
  */
 const myPow = (x, n) => {
-    return Math.pow(x,n)
+    return x**n
 };
