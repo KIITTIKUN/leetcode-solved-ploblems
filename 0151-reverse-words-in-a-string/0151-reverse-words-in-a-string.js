@@ -11,7 +11,6 @@ const reverseWords = (string) => {
         } else {
             reverseWord += `${splitStr[i]}`
         }
-        console.log(reverseWord)
     }
     return reverseWord
 };
