@@ -19,7 +19,7 @@ const isIncrease = (nums) => {
     return true
 }
 const isMonotonic = (nums) => {
-    console.log(`this sequence = {${nums}}`)
+    // console.log(`this sequence = {${nums}}`)
     let decrease = isDecrease(nums),increase = isIncrease(nums);
     // console.log(`isDecrease = ${decrease} and isIncrease = ${increase}`)
     if( decrease === false && increase === false){
